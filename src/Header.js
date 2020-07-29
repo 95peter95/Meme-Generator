@@ -8,6 +8,7 @@ function Header() {
            src={imgHead}
            alt="kappa"
            />
+           <p>Random Meme Generator</p>
        </header>
     )
 }
