@@ -1,8 +1,14 @@
 import React from 'react';
+import imgHead from './imgHead.png';
 
 function Header() {
     return (
-        <h1>header</h1>
+       <header>
+           <img 
+           src={imgHead}
+           alt="kappa"
+           />
+       </header>
     )
 }
 
