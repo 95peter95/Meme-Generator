@@ -86,7 +86,7 @@ class MemeGenerator extends Component {
                 
                 <div className="meme">
                 <Draggable {...dragHandlers}>
-                <div className="box">I can be dragged anywhere</div>
+                <div className="box">TAK SI UZ KOKOT</div>
                 </Draggable>
                     <img src={this.state.randomImg} alt="" />
                     <h2 className="top">{this.state.topText}</h2>

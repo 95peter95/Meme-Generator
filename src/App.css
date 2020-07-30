@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background: -webkit-linear-gradient(to right, #262527, #232224);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #494949, #1c2f4b);
 }
 
 header {
@@ -31,8 +32,8 @@ header > p {
 }
 
 .meme > img {
-  width: 300px;
-  height: 200px;
+  width: 50%;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -44,6 +45,8 @@ header > p {
   color: white;
   background: #6441A5;
   cursor: pointer;
+  margin: auto;
+  width: 50%;  
   
 }
 
@@ -54,4 +57,22 @@ header > p {
 .container{
   margin: auto;
   width: 50%;
+  }
+
+  .box{
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 50%;
+    font-size: 25px;
+    
+  }
+
+  .box:hover{
+    background-color: rgb(229, 243, 243);
+    border: dashed;
+    color: black;
+    opacity: 50%;
   }
